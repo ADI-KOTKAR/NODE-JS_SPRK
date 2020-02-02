@@ -13,5 +13,6 @@ Includes assignments and important NODE concepts
     2. fulfillment - resolve
     3. rejection - reject
 
-Async function
-    - returns promise
+Async, await function
+    - async function returns promise
+    - await which wait until promise gets executed - .then not required if await used
