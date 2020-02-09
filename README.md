@@ -16,3 +16,21 @@ Includes assignments and important NODE concepts
 Async, await function
     - async function returns promise
     - await which wait until promise gets executed - .then not required if await used
+
+Modules: 
+- module.exports.x = x     => {x:20}
+- module.exports = x       => 20
+- module.exports = func    => function
+
+- module.exports can also be written as exports
+- Difference between module.exports and exports - 
+  https://blog.tableflip.io/the-difference-between-module-exports-and-exports/
+
+  - module.exports                    exports
+        |                               |
+        ---------------------------------
+                        |
+                points to same object
+
+  - case 1:
+    
