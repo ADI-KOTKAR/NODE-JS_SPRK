@@ -35,7 +35,14 @@ Modules:
   - cases:
 
 
-Server: retuns response(on form of data)
+Server/HTTP: retuns response(on form of data)
 - url: 127.0.0.1:3000/name
     here 127.0.0.1:3000 is the base url
+- create a server in node  done in server_1.js
+
+
+- Express is a framework where API's are written
+- Node : Modules, HTTP,
+      File Systems: transfer between one file to other includes one step where memory is involved, 
+      Streams: sends/transfers data from one file to other directly in form of chunks, prevents use of memory
     
