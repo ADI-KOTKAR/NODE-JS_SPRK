@@ -32,5 +32,10 @@ Modules:
                         |
                 points to same object
 
-  - case 1:
+  - cases:
+
+
+Server: retuns response(on form of data)
+- url: 127.0.0.1:3000/name
+    here 127.0.0.1:3000 is the base url
     
