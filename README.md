@@ -45,4 +45,4 @@ Server/HTTP: retuns response(on form of data)
 - Node : Modules, HTTP,
       File Systems: transfer between one file to other includes one step where memory is involved, 
       Streams: sends/transfers data from one file to other directly in form of chunks, prevents use of memory
-    
+
