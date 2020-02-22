@@ -1,3 +1,5 @@
+//Its a synchronous event
+
 const event = require('events')
 const e = new event()
 
@@ -7,8 +9,11 @@ const e = new event()
 e.on('myevent',()=>{
     console.log('Data received!!!');
 })
+console.log('A');
 
 //Publisher
 e.emit('myevent')
+console.log('B');
+
 
 
