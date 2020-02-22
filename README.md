@@ -46,3 +46,5 @@ Server/HTTP: retuns response(on form of data)
       File Systems: transfer between one file to other includes one step where memory is involved, 
       Streams: sends/transfers data from one file to other directly in form of chunks, prevents use of memory
 
+stream - chunks of data
+stream calls event ondata
