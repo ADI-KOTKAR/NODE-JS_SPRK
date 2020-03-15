@@ -7,6 +7,12 @@ Includes assignments and important NODE concepts
   - 4XX -> client side issues
   - 5XX -> server side isssues
 
+  http methods - get,post,put,delete,patch
+
+    put, patch both used for modifying
+    put sends the whole json again for updating
+    patch just sends the part of json to be updated.
+
   Promises
   - has three states: 
     1. pending - not resolve/reject
@@ -48,3 +54,9 @@ Server/HTTP: retuns response(on form of data)
 
 stream - chunks of data
 stream calls event ondata
+
+
+Clustering - cretes node instances depending on no of cores of system ie. divides the same work/task to be done in  parts. It enhances performance.
+
+https://www.npmjs.com/package/loadtest
+
