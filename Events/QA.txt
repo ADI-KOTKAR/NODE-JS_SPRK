@@ -1,0 +1,61 @@
+1. What is Nodejs? Expressjs?
+-> Node.js is an open source server environment
+    Node.js is free
+    Node.js runs on various platforms (Windows, Linux, Unix, Mac OS X, etc.)
+    Node.js uses JavaScript on the server
+
+    - Express is a framework where API's are written
+
+
+2. How to create server in nodejs using http?
+-> eg.
+        const http = require('http')
+
+        let server = http.createServer((req,res)=>{
+            res.write('Hello World')
+            res.end()
+            console.log(res)
+        })
+
+        server.listen(3000, ()=>{
+            console.log('Localhost Running')
+        })
+
+3. What are events in nodejs? Explain with example
+-> Event is an action on computer. eg.
+        
+        const event = require('events')
+        const e = new event()
+
+        //Subscriber should be written before publisher
+        //ie. first register handler and then emit event
+        //Subscriber
+        e.on('myevent',()=>{
+            console.log('Data received!!!');
+        })
+        console.log('A');
+
+4. Explain FS with read and write examples
+-> read
+        const fs = require('fs')
+        //const http = require('http')
+
+        const data = fs.readFileSync('msg.txt').toString()
+        console.log(data)
+
+        write
+
+        const fs = require('fs')
+        const http = require('http')
+
+        //const data = fs.readFile('msg.txt').toString()
+        console.log(fs.writeFile('msg2.txt', 'NEW FILE CRATED',()=>{
+            
+        }))
+
+
+5. Explain streams with example
+
+6. Difference between FS readfile, writefile with readstream and writestream.
+
+7. What is request in nodejs? Explain with one example using promises
